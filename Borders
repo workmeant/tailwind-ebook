@@ -1,0 +1,416 @@
+<p class="m-5">Border Radius</p>
+
+<div class="m-5 grid grid-cols-2 gap-2 border-2 border-solid p-5">
+  <div class="m-2 rounded-none border-[10px] border-solid border-cyan-600 p-2 text-center">ไม่กำหนดความโค้งมนของขอบ</div>
+  <div class="m-2 rounded-sm border-[10px] border-solid border-cyan-600 p-2 text-center">กำหนดความโค้งมนของขอบ : <b>rounded-sm</b></div>
+  <div class="m-2 rounded border-[10px] border-solid border-cyan-600 p-2 text-center">กำหนดความโค้งมนของขอบ : <b>rounded</b></div>
+  <div class="m-2 rounded-md border-[10px] border-solid border-cyan-600 p-2 text-center">กำหนดความโค้งมนของขอบ : <b>rounded-md</b></div>
+  <div class="m-2 rounded-lg border-[10px] border-solid border-cyan-600 p-2 text-center">กำหนดความโค้งมนของขอบ : <b>rounded-lg</b></div>
+  <div class="m-2 rounded-xl border-[10px] border-solid border-cyan-600 p-2 text-center">กำหนดความโค้งมนของขอบ : <b>rounded-xl</b></div>
+  <div class="m-2 rounded-2xl border-[10px] border-solid border-cyan-600 p-2 text-center">กำหนดความโค้งมนของขอบ : <b>rounded-2xl</b></div>
+  <div class="m-2 rounded-3xl border-[10px] border-solid border-cyan-600 p-2 text-center">กำหนดความโค้งมนของขอบ : <b>rounded-3xl</b></div>
+</div>
+
+<div class="m-5 grid grid-cols-2 gap-2 border-2 border-solid p-5">
+  <div class="m-2 rounded-full border-[10px] border-solid border-cyan-600 bg-cyan-200 p-2 text-center">กำหนดความโค้งมนของขอบเป็นวงกลมเต็มรูปแบบ</div>
+  <div class="m-2 rounded-t-xl border-[10px] border-solid border-cyan-600 bg-cyan-200 p-2 text-center">กำหนดความโค้งมนของขอบด้านบน rounded-t-xl</div>
+  <div class="m-2 rounded-r-xl border-[10px] border-solid border-cyan-600 bg-cyan-200 p-2 text-center">กำหนดความโค้งมนของขอบด้านขวา rounded-r-xl</div>
+  <div class="m-2 rounded-b-xl border-[10px] border-solid border-cyan-600 bg-cyan-200 p-2 text-center">กำหนดความโค้งมนของขอบด้านล่าง rounded-b-xl</div>
+  <div class="m-2 rounded-l-xl border-[10px] border-solid border-cyan-600 bg-cyan-200 p-2 text-center">กำหนดความโค้งมนของขอบด้านซ้าย rounded-l-xl</div>
+</div>
+
+<div class="m-5 grid grid-cols-2 gap-2 border-2 border-solid p-5">
+  <div class="m-2 rounded-tl-xl border-[10px] border-solid border-cyan-600 bg-cyan-200 p-2 text-center">กำหนดความโค้งมนของขอบด้านบนซ้าย rounded-tl-xl</div>
+  <div class="m-2 rounded-tr-xl border-[10px] border-solid border-cyan-600 bg-cyan-200 p-2 text-center">กำหนดความโค้งมนของขอบด้านบนขวา rounded-tr-xl</div>
+  <div class="m-2 rounded-br-xl border-[10px] border-solid border-cyan-600 bg-cyan-200 p-2 text-center">กำหนดความโค้งมนของขอบด้านล่างขวา rounded-br-xl</div>
+  <div class="m-2 rounded-bl-xl border-[10px] border-solid border-cyan-600 bg-cyan-200 p-2 text-center">กำหนดความโค้งมนของขอบด้านล่างซ้าย rounded-bl-xl</div>
+</div>
+
+<div class="m-5 grid grid-cols-1 gap-2 border-2 border-solid p-5">
+  <div class="m-2 rounded-br-2xl rounded-tl-2xl border-[10px] border-solid border-cyan-600 bg-cyan-200 p-2 text-center">กำหนดความโค้งมนของขอบด้านบนซ้ายกับล่างขวา : rounded-br-2xl rounded-tl-2xl</div>
+  <div class="m-2 rounded-bl-2xl rounded-tr-2xl border-[10px] border-solid border-cyan-600 bg-cyan-200 p-2 text-center">กำหนดความโค้งมนของขอบด้านบนขวากับล่างซ้าย : rounded-bl-2xl rounded-tr-2xl</div>
+</div>
+
+<div class="m-5 grid grid-cols-1 gap-2 border-2 border-solid p-5">
+  <div class="m-2 rounded-bl-2xl rounded-br-2xl border-[10px] border-solid border-cyan-600 bg-cyan-200 p-2 text-center">กำหนดความโค้งมนของขอบด้านล่างซ้ายกับล่างขวา : rounded-br-2xl rounded-bl-2xl</div>
+  <div class="m-2 rounded-tl-2xl rounded-tr-2xl border-[10px] border-solid border-cyan-600 bg-cyan-200 p-2 text-center">กำหนดความโค้งมนของขอบด้านบนซ้ายกับบนขวา : rounded-tr-2xl rounded-tl-2xl</div>
+</div>
+
+<p class="m-5">Border Width</p>
+
+<div class="m-5 grid grid-cols-2 gap-2 border-2 border-solid p-5">
+  <div class="m-2 rounded-none border border-solid border-pink-200 p-2 text-center">ความหนา 1px</div>
+
+  <div class="m-2 rounded-none border-2 border-solid border-pink-200 p-2 text-center">ความหนา 2px</div>
+
+  <div class="m-2 rounded-none border-4 border-solid border-pink-200 p-2 text-center">ความหนา 4px</div>
+
+  <div class="m-2 rounded-none border-8 border-solid border-pink-200 p-2 text-center">ความหนา 8px</div>
+</div>
+
+<div class="m-5 grid grid-cols-2 gap-2 border-2 border-solid p-5">
+  <div class="m-2 rounded-none border-x-8 border-solid border-pink-200 p-2 text-center">ความหนาซ้ายขวา (x) 8px</div>
+  <div class="m-2 rounded-none border-y-8 border-solid border-pink-200 p-2 text-center">ความหนาบนล่าง (y) 8px</div>
+
+  <div class="m-2 rounded-none border-x-8 border-y-2 border-solid border-pink-200 p-2 text-center">ความหนาบนล่าง 2px และ ซ้ายขวา 8px</div>
+</div>
+
+<div class="m-5 grid grid-cols-2 gap-2 border-2 border-solid p-5">
+  <div class="m-2 rounded-none border-t-8 border-solid border-pink-200 p-2 text-center">ความหนาด้านบน 8px</div>
+  <div class="m-2 rounded-none border-b-8 border-solid border-pink-200 p-2 text-center">ความหนาด้านล่าง 8px</div>
+</div>
+
+<div class="m-5 grid grid-cols-2 gap-2 border-2 border-solid p-5">
+  <div class="m-2 rounded-none border-l-8 border-solid border-pink-200 p-2 text-center">ความหนาด้านซ้าย 8px</div>
+  <div class="m-2 rounded-none border-r-8 border-solid border-pink-200 p-2 text-center">ความหนาด้านขวา 8px</div>
+</div>
+
+<div class="m-5 grid grid-cols-2 gap-2 border-2 border-solid p-5">
+  <div class="m-2 rounded-none border-[15px] border-solid border-pink-200 p-2 text-center">ความหนากำหนดเอง 15px</div>
+  <div class="m-2 rounded-none border-[27px] border-solid border-pink-200 p-2 text-center">ความหนากำหนดเอง 27px</div>
+</div>
+
+<p class="m-5">Border Color</p>
+
+<div class="m-5 grid grid-cols-1 gap-2 border-2 border-solid p-5">
+  <div class="m-2 rounded-none border-8 border-solid border-pink-200 p-2 text-center">สีเส้นขอบทุกด้าน : border-pink-200</div>
+  <div class="m-2 rounded-none border-8 border-solid border-indigo-500 p-2 text-center">สีเส้นขอบทุกด้าน : border-indigo-500</div>
+</div>
+
+<div class="m-5 grid grid-cols-1 gap-2 border-2 border-solid p-5">
+  <div class="m-2 rounded-none border-8 border-solid border-x-pink-200 p-2 text-center">สีเส้นขอบซ้ายขวา (x) : border-x-pink-200</div>
+  <div class="m-2 rounded-none border-8 border-solid border-y-indigo-500 p-2 text-center">สีเส้นขอบบนล่าง (y) : border-y-indigo-500</div>
+</div>
+
+<div class="m-5 grid grid-cols-1 gap-2 border-2 border-solid p-5">
+  <div class="m-2 rounded-none border-8 border-solid border-t-pink-200 p-2 text-center">สีเส้นขอบด้านบน : border-t-pink-200</div>
+  <div class="m-2 rounded-none border-8 border-solid border-b-indigo-500 p-2 text-center">สีเส้นขอบด้านล่าง : border-b-indigo-500</div>
+</div>
+
+<div class="m-5 grid grid-cols-1 gap-2 border-2 border-solid p-5">
+  <div class="m-2 rounded-none border-8 border-solid border-l-pink-200 p-2 text-center">สีเส้นขอบด้านซ้าย : border-l-pink-200</div>
+  <div class="m-2 rounded-none border-8 border-solid border-r-indigo-500 p-2 text-center">สีเส้นขอบด้านขวา : border-r-indigo-500</div>
+</div>
+
+<div class="m-5 grid grid-cols-1 gap-2 border-2 border-solid p-5">
+  <div class="m-2 rounded-none border-8 border-solid border-b-lime-500 border-l-pink-500 border-r-violet-500 border-t-orange-500 p-2 text-center">ใส่สีเส้นขอบแยกแต่ละด้านก็ได้เช่นกัน</div>
+
+  <div class="m-2 rounded-2xl border-8 border-solid border-b-violet-500 border-l-gray-500 border-r-sky-500 border-t-cyan-500 p-2 text-center">ใส่สีเส้นขอบแยกแต่ละด้านก็ได้เช่นกัน</div>
+</div>
+
+<p class="m-5">Border Style</p>
+
+<div class="m-5 grid grid-cols-1 gap-2 border-2 border-solid p-5">
+  <div class="m-2 border-8 border-solid border-indigo-500 p-2 text-center">เส้นขอบแบบทึบ : border-solid</div>
+  <div class="m-2 border-8 border-dashed border-indigo-500 p-2 text-center">เส้นขอบแบบประ : border-dashed</div>
+
+  <div class="m-2 border-8 border-dotted border-indigo-500 p-2 text-center">เส้นขอบแบบจุด : border-dotted</div>
+  <div class="m-2 border-8 border-double border-indigo-500 p-2 text-center">เส้นขอบแบบเส้นคู่ : border-double</div>
+</div>
+
+<p class="m-5">Divide Width</p>
+
+<div class="m-5 grid grid-cols-3 gap-2 divide-x-4 border-2 border-solid p-5">
+  <div class="text-center">Item 1</div>
+  <div class="text-center">Item 2</div>
+  <div class="text-center">Item 3</div>
+</div>
+
+<div class="m-5 grid grid-cols-3 gap-8">
+  <div class="w-72 divide-y-4 border-2 border-solid">
+    <div class="p-4 text-center">Item 1</div>
+    <div class="p-4 text-center">Item 2</div>
+    <div class="p-4 text-center">Item 3</div>
+  </div>
+  <div class="w-72 divide-y-4 border-2 border-solid">
+    <div class="p-4 text-center">Item 1</div>
+    <div class="p-4 text-center">Item 2</div>
+    <div class="p-4 text-center">Item 3</div>
+  </div>
+  <div class="w-72 divide-y-4 border-2 border-solid">
+    <div class="p-4 text-center">Item 1</div>
+    <div class="p-4 text-center">Item 2</div>
+    <div class="p-4 text-center">Item 3</div>
+  </div>
+</div>
+
+<div class="m-5 grid grid-cols-3 gap-2 divide-x-4 divide-x-reverse border-2 border-solid p-5">
+  <div class="text-center">Item 1</div>
+  <div class="text-center">Item 2</div>
+  <div class="text-center">Item 3</div>
+</div>
+
+<div class="m-5 grid grid-cols-3 gap-8">
+  <div class="w-72 divide-y-4 divide-y-reverse">
+    <div class="p-4 text-center">Item 1</div>
+    <div class="p-4 text-center">Item 2</div>
+    <div class="p-4 text-center">Item 3</div>
+  </div>
+  <div class="w-72 divide-y-4 divide-y-reverse">
+    <div class="p-4 text-center">Item 1</div>
+    <div class="p-4 text-center">Item 2</div>
+    <div class="p-4 text-center">Item 3</div>
+  </div>
+  <div class="w-72 divide-y-4 divide-y-reverse">
+    <div class="p-4 text-center">Item 1</div>
+    <div class="p-4 text-center">Item 2</div>
+    <div class="p-4 text-center">Item 3</div>
+  </div>
+</div>
+
+<p class="m-5">Divide Color</p>
+
+<div class="m-5 grid grid-cols-3 gap-2 divide-x-4 divide-pink-700 border-2 border-solid p-5">
+  <div class="text-center">Item 1</div>
+  <div class="text-center">Item 2</div>
+  <div class="text-center">Item 3</div>
+</div>
+
+<div class="m-5 grid grid-cols-3 gap-8">
+  <div class="w-72 divide-y-4 divide-blue-500 border-2 border-solid">
+    <div class="p-4 text-center">Item 1</div>
+    <div class="p-4 text-center">Item 2</div>
+    <div class="p-4 text-center">Item 3</div>
+  </div>
+  <div class="w-72 divide-y-4 divide-indigo-400 border-2 border-solid">
+    <div class="p-4 text-center">Item 1</div>
+    <div class="p-4 text-center">Item 2</div>
+    <div class="p-4 text-center">Item 3</div>
+  </div>
+  <div class="w-72 divide-y-4 divide-emerald-400 border-2 border-solid">
+    <div class="p-4 text-center">Item 1</div>
+    <div class="p-4 text-center">Item 2</div>
+    <div class="p-4 text-center">Item 3</div>
+  </div>
+</div>
+
+<div class="m-5 grid grid-cols-3 gap-2 divide-x-4 divide-x-reverse divide-emerald-400 border-2 border-solid p-5">
+  <div class="text-center">Item 1</div>
+  <div class="text-center">Item 2</div>
+  <div class="text-center">Item 3</div>
+</div>
+
+<div class="m-5 grid grid-cols-3 gap-8">
+  <div class="w-72 divide-y-4 divide-y-reverse divide-emerald-400">
+    <div class="p-4 text-center">Item 1</div>
+    <div class="p-4 text-center">Item 2</div>
+    <div class="p-4 text-center">Item 3</div>
+  </div>
+  <div class="w-72 divide-y-4 divide-y-reverse divide-emerald-400">
+    <div class="p-4 text-center">Item 1</div>
+    <div class="p-4 text-center">Item 2</div>
+    <div class="p-4 text-center">Item 3</div>
+  </div>
+  <div class="w-72 divide-y-4 divide-y-reverse divide-emerald-400">
+    <div class="p-4 text-center">Item 1</div>
+    <div class="p-4 text-center">Item 2</div>
+    <div class="p-4 text-center">Item 3</div>
+  </div>
+</div>
+
+<p class="m-5">Divide Style</p>
+
+<div class="m-5 grid grid-cols-4 gap-8 p-4">
+  <div class="w-auto divide-y-4 divide-solid divide-gray-400 border-2 border-solid">
+    <div class="p-4 text-center">Item 1</div>
+    <div class="p-4 text-center">Item 2</div>
+    <div class="p-4 text-center">Item 3</div>
+  </div>
+  <div class="w-auto divide-y-4 divide-dashed divide-gray-400 border-2 border-solid">
+    <div class="p-4 text-center">Item 1</div>
+    <div class="p-4 text-center">Item 2</div>
+    <div class="p-4 text-center">Item 3</div>
+  </div>
+  <div class="w-auto divide-y-4 divide-dotted divide-gray-400 border-2">
+    <div class="p-4 text-center">Item 1</div>
+    <div class="p-4 text-center">Item 2</div>
+    <div class="p-4 text-center">Item 3</div>
+  </div>
+  <div class="w-auto divide-y-4 divide-double divide-gray-400 border-2">
+    <div class="p-4 text-center">Item 1</div>
+    <div class="p-4 text-center">Item 2</div>
+    <div class="p-4 text-center">Item 3</div>
+  </div>
+</div>
+
+<p class="m-5">Outline Width</p>
+
+<div class="m-5 grid grid-cols-4 gap-8 border-2 border-solid p-10">
+  <div class="rounded-2xl bg-gray-400 p-5 text-center font-bold text-white outline outline-1 outline-stone-300">Item 1 (outline-1)</div>
+
+  <div class="rounded-2xl bg-gray-400 p-5 text-center font-bold text-white outline outline-2 outline-stone-300">Item 2 (outline-2)</div>
+
+  <div class="rounded-2xl bg-gray-400 p-5 text-center font-bold text-white outline outline-4 outline-stone-300">Item 3 (outline-4)</div>
+  <div class="rounded-2xl bg-gray-400 p-5 text-center font-bold text-white outline outline-8 outline-stone-300">Item 4 (outline-8)</div>
+
+  <button class="rounded-2xl bg-gray-400 p-5 text-center font-bold text-white outline outline-black focus:outline-4">Botton (focus)</button>
+</div>
+
+<p class="m-5">Outline Color</p>
+
+<div class="m-5 grid grid-cols-4 gap-8 border-2 border-solid p-10">
+  <div class="rounded-2xl bg-gray-400 p-5 text-center font-bold text-white outline outline-1 outline-sky-300">Item 1 (outline-1)</div>
+
+  <div class="rounded-2xl bg-gray-400 p-5 text-center font-bold text-white outline outline-2 outline-sky-300">Item 2 (outline-2)</div>
+
+  <div class="rounded-2xl bg-gray-400 p-5 text-center font-bold text-white outline outline-4 outline-sky-300">Item 3 (outline-4)</div>
+  <div class="rounded-2xl bg-gray-400 p-5 text-center font-bold text-white outline outline-8 outline-sky-300">Item 4 (outline-8)</div>
+
+  <button class="rounded-2xl bg-gray-400 p-5 text-center font-bold text-white outline outline-sky-400 focus:outline-4">Botton (unfocus)</button>
+</div>
+
+<div class="m-5 grid grid-cols-2 gap-8 border-2 border-solid p-10">
+  <div class="p-5">
+    <p class="pb-4 text-lg">กรอกชื่อของคุณ</p>
+    <input class="border-2 border-solid border-black p-4 outline outline-8 outline-lime-200" placeholder="John doe" type="text" />
+  </div>
+
+  <div class="p-5">
+    <p class="pb-2 text-lg">กรอกชื่อของคุณ</p>
+    <input class="border-2 border-solid border-black p-4 outline focus:outline-4 focus:outline-red-300" placeholder="John doe" type="text" />
+  </div>
+</div>
+
+<p class="m-5">Outline Style</p>
+
+<div class="m-5 grid grid-cols-2 gap-8 border-2 border-solid p-10">
+  <div class="rounded-2xl bg-gray-400 p-5 text-center font-bold text-white outline outline-8 outline-sky-300">Item (outline)</div>
+
+  <div class="rounded-2xl bg-gray-400 p-5 text-center font-bold text-white outline-dashed outline-8 outline-sky-300">Item (outline-dashed)</div>
+
+  <div class="rounded-2xl bg-gray-400 p-5 text-center font-bold text-white outline-dotted outline-8 outline-sky-300">Item (outline-dotted)</div>
+  <div class="rounded-2xl bg-gray-400 p-5 text-center font-bold text-white outline-double outline-8 outline-sky-300">Item (outline-double)</div>
+</div>
+
+<p class="m-5">Outline Offset</p>
+
+<div class="m-5 grid grid-cols-2 gap-8 border-2 border-solid p-10">
+  <div class="rounded-2xl bg-gray-400 p-5 text-center font-bold text-white outline outline-8 outline-offset-1 outline-orange-300">Item (outline-offset-1)</div>
+
+  <div class="rounded-2xl bg-gray-400 p-5 text-center font-bold text-white outline outline-8 outline-offset-2 outline-orange-300">Item (outline-offset-2)</div>
+
+  <div class="rounded-2xl bg-gray-400 p-5 text-center font-bold text-white outline outline-8 outline-offset-4 outline-orange-300">Item (outline-offset-4)</div>
+
+  <div class="rounded-2xl bg-gray-400 p-5 text-center font-bold text-white outline outline-8 outline-offset-8 outline-orange-300">Item (outline-offset-8)</div>
+</div>
+
+
+<div class="m-5 grid grid-cols-1 gap-8 border-2 border-solid p-10">
+  <div class="rounded-2xl bg-gray-400 p-5 text-center font-bold text-white outline outline-8 outline-offset-[15px] outline-orange-300">Item (outline-offset-[15px])</div>
+</div>
+
+
+<p class="m-5">Ring Width</p>
+
+
+<div class="m-5 grid grid-cols-4 gap-8 border-2 border-solid p-10 bg-slate-300">
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-1">Botton (ring-1)</button>
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-2">Botton (ring-2)</button>
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-4">Botton (ring-4)</button>
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-8">Botton (ring-8)</button>
+
+<button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white focus:ring-8">focus:ring-8</button>
+
+
+</div>
+
+<div class="m-5 grid grid-cols-4 gap-8 border-2 border-solid p-10 bg-slate-300">
+
+
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-1 ring-inset">ring-inset (ring-1)</button>
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-2 ring-inset">ring-inset (ring-2)</button>
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-4 ring-inset">ring-inset (ring-4)</button>
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-8 ring-inset">ring-inset (ring-8)</button>
+
+<button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white focus:ring-8 ring-inset">focus:ring-8</button>
+
+
+</div>
+
+<p class="m-5">Ring Color</p>
+
+
+
+<div class="m-5 grid grid-cols-4 gap-8 border-2 border-solid p-10 bg-slate-300">
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-1 ring-red-400">Botton (ring-1)</button>
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-2 ring-red-400">Botton (ring-2)</button>
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-4 ring-red-400">Botton (ring-4)</button>
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-8 ring-red-400">Botton (ring-8)</button>
+
+
+<button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white focus:ring-8 ring-red-400">unfocus:ring-8</button>
+<button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white focus:ring-8 ring-red-400">focus:ring-8</button>
+
+
+</div>
+
+<div class="m-5 grid grid-cols-4 gap-8 border-2 border-solid p-10 bg-slate-300">
+
+
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-1 ring-inset ring-red-400">ring-inset (ring-1)</button>
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-2 ring-inset ring-red-400">ring-inset (ring-2)</button>
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-4 ring-inset ring-red-400">ring-inset (ring-4)</button>
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-8 ring-inset ring-red-400">ring-inset (ring-8)</button>
+
+
+<button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white focus:ring-8 ring-inset ring-red-400">unfocus:ring-8</button>
+
+<button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white focus:ring-8 ring-inset ring-red-400">focus:ring-8</button>
+
+</div>
+
+
+<p class="m-5">Ring Offset Width</p>
+
+
+
+<div class="m-5 grid grid-cols-3 gap-8 border-2 border-solid p-10 bg-slate-300">
+  
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-8 ring-pink-400 ring-offset-2">Botton (ring-offset-2)</button>
+
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-8 ring-pink-400 ring-offset-4">Botton (ring-offset-4)</button>
+
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-8 ring-pink-400 ring-offset-8">Botton (ring-offset-8)</button>
+
+
+
+</div>
+
+<div class="m-5 grid grid-cols-3 gap-8 border-2 border-solid p-10 bg-slate-300">
+  
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-8 ring-inset ring-pink-400 ring-offset-2">Botton (ring-offset-2)</button>
+
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-8 ring-inset ring-pink-400 ring-offset-4">Botton (ring-offset-4)</button>
+
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-8 ring-inset ring-pink-400 ring-offset-8">Botton (ring-offset-8)</button>
+
+
+
+</div>
+
+<p class="m-5">Ring Offset Color</p>
+
+
+<div class="m-5 grid grid-cols-3 gap-8 border-2 border-solid p-10 bg-slate-300">
+  
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-8 ring-pink-400 ring-offset-2 ring-offset-lime-400"> ring-offset-lime-400</button>
+
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-8 ring-pink-400 ring-offset-4 ring-offset-lime-400"> ring-offset-lime-400</button>
+
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-8 ring-pink-400 ring-offset-8 ring-offset-lime-400"> ring-offset-lime-400</button>
+
+
+
+</div>
+
+<div class="m-5 grid grid-cols-3 gap-8 border-2 border-solid p-10 bg-slate-300">
+  
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-8 ring-inset ring-pink-400 ring-offset-2 ring-offset-lime-400">ring-offset-lime-400</button>
+
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-8 ring-inset ring-pink-400 ring-offset-4 ring-offset-lime-400">ring-offset-lime-400</button>
+
+  <button class="rounded-2xl bg-slate-700 p-5 text-center font-bold text-white ring-8 ring-inset ring-pink-400 ring-offset-8 ring-offset-lime-400">ring-offset-lime-400</button>
+
+
+
+</div>
