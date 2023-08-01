@@ -1,0 +1,459 @@
+<p class="m-5">Hover, Focus, and Other State</p>
+
+<div class="bg-pearl-1 m-5 grid grid-cols-1 gap-4 border-2 border-solid p-10 p-3">
+  <div>
+    <p class="pb-3 text-xl underline">Hover</p>
+    <hr class="boder-2 p-2" />
+
+    <button class="my-2 w-24 rounded-2xl border-2 bg-red-400 p-3 font-bold text-white hover:bg-red-600">Hover</button>
+    <input type="text" class="w-40 rounded-2xl border-2 p-3 hover:border-sky-200" placeholder="นำเมาส์มาวาง" />
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">focus</p>
+    <hr class="boder-2 p-2" />
+
+    <button class="my-2 w-full rounded-2xl border-2 bg-red-400 p-3 font-bold text-white focus:bg-red-600">Click</button>
+    <input type="text" class="w-40 rounded-2xl border-2 p-3 focus:bg-slate-100" placeholder="คลิกที่ element" />
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">focus-within</p>
+    <hr class="boder-2 p-2" />
+
+    <div class="rounded-xl bg-blue-400 p-4 focus-within:bg-red-400">
+      <input class="rounded-lg px-4 py-2" placeholder="คลิกที่ element" />
+    </div>
+  </div>
+  <hr class="boder-2 p-2" />
+  <div class="flex flex-col gap-3">
+    <p class="pb-3 text-xl underline">focus-visible</p>
+    <hr class="boder-2 p-2" />
+
+    <input type="text" class="w-full rounded-2xl border-2 p-3 focus:bg-slate-100" placeholder="กด tap เพื่อไป element ถัดไป" />
+    <button class="rounded-2xl border-2 bg-red-400 p-3 font-bold text-white focus:bg-red-600 focus-visible:bg-fuchsia-600">คลิกที่ element</button>
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">active</p>
+    <hr class="boder-2 p-2" />
+
+    <button class="my-2 w-full rounded-2xl border-2 bg-red-400 p-3 font-bold text-white hover:bg-red-600 active:bg-blue-400">คลิกค้างที่ element</button>
+    <input type="text" class="w-full rounded-2xl border-2 p-3 active:bg-slate-100" placeholder="คลิกค้างที่ elemen" />
+  </div>
+  <hr class="boder-2 p-2" />
+
+  <div class="flex flex-col gap-3">
+    <p class="pb-3 text-xl underline">visited</p>
+    <hr class="boder-2 p-2" />
+    <a href="https://www.svgrepo.com" class="text-blue-600 visited:text-purple-600">เปิดแทบ svgrepo.com </a>
+    <a href="https://jwt.com" class="text-blue-600 visited:text-purple-600">เปิดแทบ jwt.io </a>
+  </div>
+  <hr class="boder-2 p-2" />
+
+  <div>
+    <p class="pb-3 text-xl underline">target</p>
+    <hr class="boder-2 p-2" />
+    <a href="#about" class="underline">เปิด Section</a>
+    <section id="about" class="mt-3 flex w-full scroll-pt-20 justify-center bg-pink-100 p-12 target:bg-gray-300">
+      <div class="text-center">
+        <h1 class="text-4xl font-bold text-pink-700">Test Section</h1>
+        <p>เมื่อเปิดลิ้ง section สีจะเปลี่ยน</p>
+      </div>
+    </section>
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">first</p>
+    <hr class="boder-2 p-2" />
+    <ul class="list-disc p-4">
+      <li class="p-2 first:bg-gray-200">Item</li>
+      <li class="p-2 first:bg-gray-200">Item</li>
+      <li class="p-2 first:bg-gray-200">Item</li>
+    </ul>
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">last</p>
+    <hr class="boder-2 p-2" />
+    <ul class="list-disc p-4">
+      <li class="p-2 last:bg-gray-200">Item</li>
+      <li class="p-2 last:bg-gray-200">Item</li>
+      <li class="p-2 last:bg-gray-200">Item</li>
+    </ul>
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">only</p>
+    <hr class="boder-2 p-2" />
+    <div class="m-2">
+      <div class="bg-red-300 p-4 only:bg-blue-300">ฉันสีฟ้าและคนเดียวเท่านั้นในองค์ประกอบ หากมีใครเข้ามาฉันจะสีแดง</div>
+    </div>
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">odd</p>
+    <hr class="boder-2 p-2" />
+    <ul class="list-decimal p-4">
+      <li class="p-2 odd:bg-blue-200">Item</li>
+      <li class="p-2 odd:bg-blue-200">Item</li>
+      <li class="p-2 odd:bg-blue-200">Item</li>
+      <li class="p-2 odd:bg-blue-200">Item</li>
+    </ul>
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">even</p>
+    <hr class="boder-2 p-2" />
+    <ul class="list-decimal p-4">
+      <li class="p-2 even:bg-blue-200">Item</li>
+      <li class="p-2 even:bg-blue-200">Item</li>
+      <li class="p-2 even:bg-blue-200">Item</li>
+      <li class="p-2 even:bg-blue-200">Item</li>
+    </ul>
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">first-of-type</p>
+    <hr class="boder-2 p-2" />
+    <div class="space-y-4">
+      <p class="p-1 first-of-type:bg-red-200">บรรทัดแรก</p>
+      <p class="p-1 first-of-type:bg-red-200">บรรทัดสอง</p>
+      <p class="p-1 first-of-type:bg-red-200">บรรทัดสาม</p>
+    </div>
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">last-of-type</p>
+    <hr class="boder-2 p-2" />
+    <div class="space-y-4">
+      <p class="p-1 last-of-type:bg-red-200">บรรทัดแรก</p>
+      <p class="p-1 last-of-type:bg-red-200">บรรทัดสอง</p>
+      <p class="p-1 last-of-type:bg-red-200">บรรทัดสาม</p>
+    </div>
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">only-of-type</p>
+    <hr class="boder-2 p-2" />
+    <div>
+      <p class="p-1 only-of-type:bg-red-200">ฉันแดงอ่อนและต้องคนเดียวเท่านั้นในองค์ประกอบ</p>
+    </div>
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">empty</p>
+    <hr class="boder-2 p-2" />
+    <div class="m-3 h-16 w-full bg-gray-700 p-3 text-white empty:bg-red-200">หากภายใน element ไม่ว่างเปล่าจะสีดำ และ
+      ถ้าว่างเปล่าจะสีแดงอ่อน</div>
+    <div class="m-3 h-16 w-16 bg-black p-3 empty:bg-red-200"></div>
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">disabled</p>
+    <hr class="boder-2 p-2" />
+
+    <div class="grid grid-cols-2 gap-3">
+      <div>
+        <button id="btn1" class="w-full rounded-2xl border-2 bg-gray-500 p-3 font-bold text-white hover:bg-gray-600 disabled:bg-red-600" onclick="this.disabled = true">เมิ่อกดจะปิดการใช้และสีแดง</button>
+      </div>
+      <div>
+        <button class="w-full rounded-2xl border-2 bg-gray-500 p-3 font-bold text-white hover:bg-gray-600 disabled:bg-red-600" onclick="document.getElementById('btn1').disabled = false;document.getElementById('input1').disabled = false;"">เปิดใช้งานปุ่มแรก และ input</button>
+      </div>
+      <div>
+        <input disabled id="input1" type="text" class="w-40 rounded-2xl border-2 p-3 placeholder="นำเมาส์มาวาง" />
+      </div>
+    </div>
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">checked, indeterminate</p>
+    <hr class="boder-2 p-2" />
+    <div class="p-6 space-y-4">
+      <label class="flex items-center space-x-3">
+      <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-600" checked><span class="text-gray-700 dark:text-gray-400">Option 1</span>
+    </label>
+      <label class="flex items-center space-x-3">
+      <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-600" indeterminate><span class="text-gray-700 dark:text-gray-400">Option 2</span>
+    </label>
+      <label class="flex items-center space-x-3">
+      <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-600"><span class="text-gray-700 dark:text-gray-400">Option 3</span>
+    </label>
+    </div>
+
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">min , max</p>
+    <hr class="boder-2 p-2" />
+    <div class="min-w-[70px] max-w-[70px] bg-blue-200">
+      The standard chunk of Lorem Ipsum used since the 1500s
+    </div>
+
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">dark</p>
+    <hr class="boder-2 p-2" />
+    <div class="bg-white dark:bg-black">
+      <h1 class="text-gray-900 dark:text-white p-4 rounded-xl border-2">จะปรับสีพื้นหลังเมื่อเปิด dark-mode</h1>
+    </div>
+
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">portrait</p>
+    <hr class="boder-2 p-2" />
+    <div class="portrait:bg-red-500 p-4 rounded-xl border-2">จะปรับสีพื้นหลังเมื่ออุปกรณ์แนวตั้ง</div>
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">landscape</p>
+    <hr class="boder-2 p-2" />
+    <div class="landscape:bg-sky-500 p-4 rounded-xl border-2">จะปรับสีพื้นหลังเมื่ออุปกรณ์แนวนอน</div>
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">marker</p>
+    <hr class="boder-2 p-2" />
+    <ul role="list" class="marker:text-pink-400 list-disc pl-5 space-y-3 text-slate-400">
+      <li>Tea</li>
+      <li>Coffee</li>
+      <li>Milk</li>
+    </ul>
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">selection</p>
+    <hr class="boder-2 p-2" />
+    <div class="selection:bg-green-300 selection:text-pink-900">
+      <p>
+        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections
+        1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original
+        form, accompanied by English versions from the 1914 translation by H. Rackham.
+      </p>
+    </div>
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline"></p>
+    <hr class="boder-2 p-2" />
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">file</p>
+    <hr class="boder-2 p-2" />
+    <form class="flex items-center space-x-6">
+      <label class="block">
+      <span class="sr-only">Choose profile photo</span>
+      <input type="file" class="block w-full text-sm text-slate-500
+        file:mr-4 file:py-2 file:px-4
+        file:rounded-full file:border-0
+        file:text-sm file:font-semibold
+        file:bg-violet-50 file:text-violet-700
+        hover:file:bg-violet-100
+      "/>
+    </label>
+    </form>
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">backdrop</p>
+    <hr class="boder-2 p-2" />
+    <div class="flex items-center justify-center h-screen">
+      <button class="py-2 px-6 bg-blue-500 text-white rounded hover:bg-blue-700" onclick="document.getElementById('modal').classList.toggle('hidden')">Show Modal</button>
+    </div>
+    <div class="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden" id="modal">
+      <div class="flex items-center justify-center min-height-100vh pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+        <div class="fixed inset-0 transition-opacity">
+          <div class="absolute inset-0 bg-gray-900 opacity-75" />
+        </div>
+        <span class="hidden sm:inline-block sm:align-middle sm:h-screen">&#8203;</span>
+        <div
+          class="inline-block align-center bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full m-3"
+          role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+          <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+            <label class="font-medium text-gray-800">Name</label>
+            <input type="text" class="w-full outline-none rounded bg-gray-100 p-2 mt-2 mb-3" />
+            <label class="font-medium text-gray-800">Url</label>
+            <input type="text" class="w-full outline-none rounded bg-gray-100 p-2 mt-2 mb-3" />
+          </div>
+          <div class="bg-gray-200 px-4 py-3 text-right">
+            <button type="button" class="py-2 px-4 bg-gray-500 text-white rounded hover:bg-gray-700 mr-2" onclick="document.getElementById('modal').classList.toggle('hidden')"><i class="fas fa-times"></i> Cancel</button>
+            <button type="button" class="py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-700 mr-2"><i class="fas fa-plus"></i> Create</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">placeholder</p>
+    <hr class="boder-2 p-2" />
+    <input type="text" class="w-40 rounded-2xl border-2 p-3 hover:border-sky-200" placeholder=พิมพ์ข้อความ...." />
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">print</p>
+    <hr class="boder-2 p-2" />
+    <div>
+      <article class="print:border-4">
+        <h1 class="m-5">กด Print หน้าเพจ (CTRL+P)</h1>
+        <p class="m-5 print:text-pink-700">
+          ข้อความนี้จะถูกเปลี่ยนสีและสร้างกรอบ
+        </p>
+      </article>
+      <div class="hidden print:block m-5">
+        ข้อความนี้จะถูกแสดงผลออกมา
+      </div>
+    </div>
+  </div>
+</div>
+<hr class="boder-2 p-2" />
+<div>
+  <p class="pb-3 text-xl underline">motion-safe</p>
+  <hr class="boder-2 p-2" />
+  <div class="animate-spin motion-safe:animate-spin">
+    <div class="m- h-16 w-16 bg-gray-700 p-1 text-white empty:bg-red-200">หมุน</div>
+  </div>
+</div>
+<hr class="boder-2 p-2" />
+<div>
+  <p class="pb-3 text-xl underline">motion-reduce</p>
+  <hr class="boder-2 p-2" />
+  <div class="animate-bounce motion-safe:animate-bounce ">
+    Bounce if motion is safe, don't bounce if motion is reduced.
+  </div>
+
+</div>
+<hr class="boder-2 p-2" />
+<div>
+  <p class="pb-3 text-xl underline">before</p>
+  <div x="ทดสอบเพิ่มข้อความด้วย before" class="p-2 before:content-[attr(x)]"> - ข้อความเดิมแบบ Attribute</div>
+  <div x2="ทดสอบเพิ่มข้อความด้วย before" class="p-2 before:content-['ทดสอบเพิ่มข้อความแบบ\_2']""> - ข้อความเดิม</div>
+
+
+</div>
+<hr class=" boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">after</p>
+    <div x="ทดสอบเพิ่มข้อความด้วย after" class="p-2 after:content-[attr(x)]">ข้อความเดิมแบบ Attribute - </div>
+    <div class="p-2 after:content-['ทดสอบเพิ่มข้อความแบบ\_2']">
+      ข้อความเดิม - </div>
+
+  </div>
+  <hr class="boder-2 p-2" />
+
+
+  <div>
+    <div>
+      <p class="pb-3 text-xl underline">first-letter , first-line</p>
+      <hr class="boder-2 p-2" />
+      <p class="
+  first-letter:text-7xl first-letter:font-bold first-letter:text-white
+  first-letter:mr-3 first-letter:float-left bg-slate-200 p-3
+">
+        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections
+        1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original
+        form, accompanied by English versions from the 1914 translation by H. Rackham.
+      </p>
+    </div>
+    <hr class="boder-2 p-2" />
+
+    <div>
+      <p class="first-line:uppercase bg-slate-200 p-3
+">
+        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections
+        1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original
+        form, accompanied by English versions from the 1914 translation by H. Rackham.
+      </p>
+    </div>
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">aria-disabled</p>
+    <hr class="boder-2 p-2" />
+    <div class="flex items-center">
+      <div class="w-4 h-4 mr-2 border-2 rounded border-gray-300" role="checkbox" aria-checked="false"></div>
+      <div class="text-gray-700">Unselected Checkbox</div>
+    </div>
+
+    <div class="flex items-center mt-2">
+      <div class="w-4 h-4 mr-2 border-2 border-blue-500 rounded bg-blue-500" role="checkbox" aria-checked="true"></div>
+      <div class="text-gray-700">Selected Checkbox</div>
+    </div>
+
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">aria-expanded</p>
+    <hr class="boder-2 p-2" />
+    <div class="expandable" aria-expanded="true">
+      <p class="content">This is expandable content.</p>
+      <style>
+        [aria-expanded="true"] {
+          color: #4299e1;
+        }
+      </style>
+    </div>
+
+
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">aria-[*]</p>
+    <hr class="boder-2 p-2" />
+    <button aria-pressed="true" onclick="this.setAttribute('aria-pressed', this.getAttribute('aria-pressed') === 'true' ? 'false' : 'true');" class="aria-pressed-false:bg-blue-500 aria-pressed-true:bg-green-500 text-base px-4 py-2">Press Me</button>
+    <style>
+      [aria-pressed="false"] {
+        @apply bg-blue-500;
+      }
+
+      [aria-pressed="true"] {
+        @apply bg-green-500;
+      }
+    </style>
+
+    </script>
+
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">data-[*]</p>
+    <hr class="boder-2 p-2" />
+    <div data-size="large" class="data-[size=large]:p-8">
+      <p>12345</p>
+    </div>
+    <div data-size="medium" class="data-[size=large]:p-8">
+      <p>12345</p>
+    </div>
+  </div>
+  <hr class="boder-2 p-2" />
+  <div>
+    <p class="pb-3 text-xl underline">open</p>
+    <hr class="boder-2 p-2" />
+    <div class="max-w-lg mx-auto p-8">
+
+
+      <details class="open:bg-white open:ring-1 open:ring-black/5  open:shadow-lg p-6 rounded-lg">
+        <summary class="text-sm leading-6 text-base">
+          กดเพื่อแสดง
+        </summary>
+        <div class="text-slate-300 m-5">
+          <p>ข้อความ</p>
+        </div>
+      </details>
+
+
+
+    </div>
+    <hr class="boder-2 p-2" />
+
+    ---
+    <div>
+      <p class="pb-3 text-xl underline"></p>
+      <hr class="boder-2 p-2" />
+    </div>
+    <hr class="boder-2 p-2" />
+
+  </div>
